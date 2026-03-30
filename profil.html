@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Profil Konsultan & Penagihan</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #0f172a;
+    color: white;
+}
+
+/* LAYOUT */
+.layout {
+    display: flex;
+}
+
+/* IKLAN */
+.ads {
+    width: 20%;
+    padding: 10px;
+}
+
+.ads img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+/* KONTEN */
+.main {
+    width: 60%;
+}
+
+/* HERO */
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+    background: linear-gradient(135deg, #1e293b, #0f172a);
+}
+
+.hero h1 {
+    font-size: 30px;
+}
+
+.hero p {
+    margin-top: 10px;
+    color: #cbd5e1;
+}
+
+/* SECTION */
+.section {
+    padding: 30px 20px;
+}
+
+/* CARD */
+.card {
+    background: #1e293b;
+    padding: 20px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+/* PROFIL */
+.nama {
+    font-size: 22px;
+    color: #22c55e;
+    margin-top: 10px;
+}
+
+/* SLIDER */
+.slider {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+    margin-top: 20px;
+    padding-bottom: 10px;
+}
+
+.slider img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 10px;
+    flex-shrink: 0;
+    transition: 0.3s;
+}
+
+.slider img:hover {
+    transform: scale(1.1);
+}
+
+/* SCROLLBAR */
+.slider::-webkit-scrollbar {
+    height: 6px;
+}
+
+.slider::-webkit-scrollbar-thumb {
+    background: #22c55e;
+    border-radius: 10px;
+}
+
+/* CONTACT */
+.contact a {
+    display: block;
+    background: #25D366;
+    padding: 12px;
+    margin: 10px auto;
+    width: 220px;
+    text-align: center;
+    border-radius: 8px;
+    text-decoration: none;
+    color: white;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+    .layout {
+        flex-direction: column;
+    }
+
+    .ads {
+        width: 100%;
+    }
+
+    .main {
+        width: 100%;
+    }
+}
+</style>
+
+</head>
+<body>
+
+<div class="layout">
+
+    <!-- IKLAN KIRI -->
+    <div class="ads">
+        <img src="photo_2026-03-30_23-41-25.jpg">
+        <img src="photo_2026-03-30_23-41-48.jpg">
+        <img src="photo_2026-03-30_23-41-52.jpg">
+        <img src="photo_2026-03-30_23-41-56.jpg">
+
+    </div>
+
+    <!-- KONTEN -->
+    <div class="main">
+
+        <!-- HERO -->
+        <div class="hero">
+            <h1>Jasa Konsultan & Penagihan Profesional</h1>
+            <p>Solusi terpercaya untuk kebutuhan keuangan, penagihan, dan operasional lapangan</p>
+        </div>
+
+        <!-- PROFIL -->
+        <div class="section">
+            <div class="card" style="text-align:center;">
+
+                <h2>Profil</h2>
+
+                <div class="nama">M. Fitrah Kasman</div>
+
+                <p>
+                Debt Collector • Driver • Pengawal Pribadi • Konsultan Lapangan
+                </p>
+
+                <p style="margin-top:10px; font-size:12px; color:#94a3b8;">
+                    Geser untuk melihat dokumentasi ➡️
+                </p>
+
+                <!-- SLIDER -->
+                <div class="slider">
+                    <img src="art1.jpg">
+                    <img src="art2.jpg">
+                    <img src="art3.jpg">
+                    <img src="art4.jpg">
+                    <img src="art5.jpg">
+                    <img src="art6.jpg">
+                    <img src="art7.jpg">
+                    <img src="art8.jpg">
+                    <img src="art9.jpg">
+                </div>
+
+                <br>
+
+                <p>
+                Profesional berpengalaman dalam bidang penagihan, pengawalan, dan pendampingan operasional.
+                Mengutamakan hasil nyata, komunikasi efektif, serta kepercayaan dalam setiap pekerjaan.
+                </p>
+
+            </div>
+        </div>
+
+        <!-- DESKRIPSI -->
+        <div class="section">
+
+    <div class="card">
+        <h2>💰 Pembiayaan Dana</h2>
+        <p>
+        Menyediakan solusi pembiayaan untuk kebutuhan usaha maupun proyek besar.
+        Proses dilakukan secara cepat dengan sistem yang jelas dan terarah,
+        sehingga memudahkan klien dalam mendapatkan dana yang dibutuhkan.
+        </p>
+    </div>
+
+    <div class="card">
+        <h2>📄 Penagihan Hutang</h2>
+        <p>
+        Membantu proses penagihan hutang macet baik untuk perusahaan maupun
+        perorangan. Penanganan dilakukan secara profesional dengan pendekatan
+        komunikasi yang efektif dan terstruktur.
+        </p>
+    </div>
+
+    <div class="card">
+        <h2>⚖️ Konsultan Hukum</h2>
+        <p>
+        Memberikan pendampingan dalam penyelesaian masalah hukum yang berkaitan
+        dengan keuangan dan bisnis, hingga mencapai hasil yang optimal dan tuntas.
+        </p>
+    </div>
+
+    <div class="card">
+        <h2>🚗 Driver & Pengawal Pribadi</h2>
+        <p>
+        Menyediakan layanan driver sekaligus pengawalan pribadi untuk menunjang
+        mobilitas dan keamanan, baik dalam kota maupun luar kota.
+        </p>
+    </div>
+
+</div>
+
+        <!-- PROMO -->
+        <div class="section">
+            <div class="card" style="text-align:center;">
+
+                <h2>Promo Produk</h2>
+
+                <img src="photo_2026-03-30_23-41-25.jpg" style="width:200px; margin:10px; border-radius:10px;">
+                <img src="photo_2026-03-30_23-50-00.jpg" style="width:200px; margin:10px; border-radius:10px;">
+
+                <p>
+                Air Minum PH Tinggi IZAURA untuk menjaga kesehatan dan stamina tubuh.
+                <br><br>
+                Tersedia juga layanan Laundry Self Service yang praktis dan efisien.
+                </p>
+
+                <br>
+
+                <a href="https://wa.me/6281281198570">Order Sekarang</a>
+
+            </div>
+        </div>
+
+        <!-- KONTAK -->
+        <div class="section contact">
+            <h2>Kontak</h2>
+
+            <a href="https://wa.me/6281281198570">081281198570</a>
+            <a href="https://wa.me/6281314212585">081314212585</a>
+            <a href="https://wa.me/6287711049685">087711049685</a>
+            <a href="https://wa.me/6281384718174">081384718174</a>
+
+        </div>
+
+    </div>
+
+    <!-- IKLAN KANAN -->
+    <div class="ads">
+        <img src="photo_2026-03-30_23-49-53.jpg">
+        <img src="photo_2026-03-30_23-49-56.jpg">
+        <img src="photo_2026-03-30_23-50-00.jpg">
+        <img src="photo_2026-03-30_23-50-03.jpg">
+    </div>
+
+</div>
+
+</body>
+</html>
